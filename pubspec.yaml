@@ -7,7 +7,7 @@ environment:
   sdk: ">=2.15.0 <3.0.0"
 
 dependencies:
-  image: ^3.1.0
+  image: ^4.0.15
   collection: ^1.15.0
   dart_reed_solomon_nullsafety: ^0.2.0
   equatable: ^2.0.3

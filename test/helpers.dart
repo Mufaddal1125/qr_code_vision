@@ -18,7 +18,10 @@ Image bitMatrixToImage(BitMatrix matrix) {
     }
   }
   return Image.fromBytes(
-      matrix.width, matrix.height, output.buffer.asUint8List());
+    width: matrix.width,
+    height: matrix.height,
+    bytes: output.buffer,
+  );
 }
 
 BitMatrix loadMatrix(String path) {
